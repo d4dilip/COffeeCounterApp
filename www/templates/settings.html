@@ -1,0 +1,15 @@
+<ion-view >  
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="setting in Settings">
+                <div class="item item-divider">
+                    {{setting.Name}}
+                </div>
+                <ion-toggle ng-repeat="item in setting.Items" ng-model="item.checked" ng-checked="item.checked">
+                    {{ item.text }}
+                </ion-toggle>
+            </ion-item>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

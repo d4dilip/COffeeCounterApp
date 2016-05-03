@@ -1,0 +1,24 @@
+<ion-view>
+    <ion-content>
+        <div class=" bar padding-bottom">
+            <h1 class="title positive">{{coffeecups.count}} <i class="icon ion-coffee larger"></i></h1>
+        </div>
+       
+        <div class="padding-top">
+            <img class="coffeImage "></img>
+        </div>
+        <div class="range">
+            <i class="icon ion-coffee positive"></i>
+            <input type="range" name="coffeecups" ng-model="coffeecups.count" min="1" max="100" value="coffeecups.count">
+            <i class="icon ion-coffee"></i>
+        </div>
+        <div class="padding-bottom"></div>
+        <div class="button-bar">
+            <a class="button button-positive icon ion-arrow-up-a" ng-click="AddCoffeeCup()"></a>
+            <a class="button button-assertive icon ion-arrow-down-a" ng-disabled="coffeecups.count==1" ng-click="ReduceCoffeeCup()"  ></a>
+        </div>
+        <div class="button-bar">
+            <a class="button button-balanced button-full"  ng-click="StoreCoffecups()">OK</a>
+        </div>
+    </ion-content>
+</ion-view>

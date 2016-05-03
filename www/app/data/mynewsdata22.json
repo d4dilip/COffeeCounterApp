@@ -1,0 +1,26 @@
+{
+    "News": [
+        {
+            "Id": 1,
+            "title": "News Update from 2016-02-22 Encryption Trojans in circulation",
+            "imageurl": "https://portal.intranet.voith.net/EN/Company/News/Global/PublishingImages/500_F_42449865_MYiXjGntDcoSe2IMeOqKqaKjSlHq5qKI.jpg",
+            "Description": "More and more new variations of the virus are showing up: as attachments of e-mails, obviously looking acknowledgments of faxes or scans.\r\n\t\t\t\\n\\r \r\n\t\t\tPlease continue to be careful regarding all e-mail attachments, especially from unknown senders. Do not start programs or included macros.",
+            "sourceLink": "https://portal.intranet.voith.net/EN/Company/News/Global/Pages/News-Update-from-2016-02-22-Encryption-Trojans-in-circulation.aspx",
+            "Tags": "Technology,Security",
+            "Company": "Global",
+            "newsCreatedOn": "2016-02-22T00:00:00",
+            "ImportedOn": "2016-02-29T16:32:44.37"
+        },
+        {
+            "Id": 2,
+            "title": "Improving Profitability with MKC",
+            "imageurl": "https://portal.intranet.voith.net/EN/Company/News/GroupDivisions/PublishingImages/Bild_EN_MKC.JPG",
+            "Description": "Another newsletter is out now and provides insights into the work of our Modular Key Components specialists. As an outstanding example of their work the EvoDry steel drying cylinder is presented in this issue. In a short interview Andreas Endters, President Business Line Projects answers three project related questions.",
+            "sourceLink": "https://portal.intranet.voith.net/EN/Company/News/Global/Pages/News-Update-from-2016-02-22-Encryption-Trojans-in-circulation.aspx",
+            "Tags": "Profitability",
+            "Company": "Gloabl,Group Divisions",
+            "newsCreatedOn": "2016-02-22T00:00:00",
+            "ImportedOn": "2016-02-29T16:32:44.387"
+        }
+    ]
+}
