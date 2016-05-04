@@ -1,5 +1,5 @@
 // Coffee Counter App 
-var CoffeeCounterApp = angular.module('CoffeeCounterApp', ['ionic'])
+var CoffeeCounterApp = angular.module('CoffeeCounterApp', ['ionic',])
     .run(function($ionicPlatform, $rootScope, $ionicLoading, $http, AppConstants) {
         $ionicPlatform.ready(function() {
 

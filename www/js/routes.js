@@ -53,6 +53,23 @@ CoffeeCounterApp.config(function($stateProvider, $urlRouterProvider, $httpProvid
                     controller: 'TrendsCtrl'
                 }
             }
+        })
+        .state('app.logs', {
+            url: '/logs',
+            views: {
+                'menuContent': {
+                    templateUrl: 'templates/logs.html',
+                    controller: 'TrendsCtrl'
+                }
+            }
+        })
+        .state('app.info', {
+            url: '/info',
+            views: {
+                'menuContent': {
+                    templateUrl: 'templates/info.html'
+                }
+            }
         });
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/home');

@@ -10,7 +10,10 @@
         $scope.date = new Date();
 
         loadtrends();
+        getAllCoffeeData();
         $scope.doRefresh = loadtrends;
+        $scope.getAllCoffeeData = getAllCoffeeData;
+        $scope.ClearLogs = ClearLogs;
         $scope.OpenExtLink = OpenExtLink;
 
         function OpenExtLink(url) {
@@ -48,6 +51,17 @@
             $scope.$broadcast('scroll.refreshComplete');
 
 
+        }
+        function getAllCoffeeData() {
+            var data = $localstorage.getObject("COFFEECOUNTDATA");
+            $scope.AllCoffee = data;
+            $scope.$broadcast('scroll.refreshComplete');
+        }
+        function ClearLogs() {
+
+            localStorage.removeItem("COFFEECOUNTDATA");
+            getAllCoffeeData();
+            loadtrends();
         }
 
 

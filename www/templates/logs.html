@@ -1,0 +1,17 @@
+<ion-view>
+    <ion-content>
+        <ion-refresher pulling-text="Pull to refresh..." on-refresh="getAllCoffeeData()">
+        </ion-refresher>
+        <div class="button-bar">
+            <a class="button button-assertive button-full" ng-click="ClearLogs()">Clear Logs</a>
+        </div>
+        <div class="list">
+            <a class="item item-icon-left" href="#" ng-repeat=" c in AllCoffee  | orderBy: '-Timestamp'">
+                <i class="icon ion-coffee"></i> {{c.NumberOfCoffee}} Cups
+                <span class="item-note">
+      {{c.Timestamp | date:'yyyy-MM-dd HH:mma'}}
+    </span>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
