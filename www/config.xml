@@ -85,4 +85,7 @@
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
     </platform>
+     <platform name="wp8">
+           <preference name="Fullscreen" value="true" />
+    </platform>
 </widget>
